@@ -1,0 +1,11 @@
+{   
+    "action": "test",
+    "name" : "ENTNet_Hard_Pseudo",
+
+    "data" : "/workspace/kanggilpark/ENT_Recognition/TM_Surgical_Phase_Recognition/feature_extractor/data/ent_5phase_test.hdf5",
+    "num_class" : 6, 
+
+    "checkpoint" : "/workspace/kanggilpark/ENT_Recognition/TM_Surgical_Phase_Recognition/feature_extractor/experiments/ent_6class_hard_pseudo/weight/model_epoch3.pth",
+    "save_path" :  "/workspace/ENT/Recognition/Feature/frame_feature_hard_pseudo",
+    "cuda_visible_devices" : "0"
+}

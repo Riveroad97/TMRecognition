@@ -1,0 +1,18 @@
+{   
+    "action" : "labeled",
+    "name" : "ENTNet_Labeled",
+
+    "data" : "/workspace/kanggilpark/ENT_Recognition/TM_Surgical_Phase_Recognition/feature_extractor/data/ent_6phase_no_drill.hdf5",
+    "batch_size" : 512,
+    "num_workers" : 8,
+    "num_class" : 6, 
+    "gpu_mode" : "DataParallel",
+
+    "epochs" : 500,
+    "lr" : 1e-6,
+    "lr_scheduler" : "cosine_annealing_warm_restart",
+    "print_freq" : 1,
+    "save_path" : "experiments/ent_6class_labeled/",
+    "resume" : "off",
+    "cuda_visible_devices" : "0,1,2,3"
+}

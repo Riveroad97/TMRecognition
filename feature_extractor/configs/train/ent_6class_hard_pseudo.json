@@ -1,0 +1,20 @@
+{   
+    "action": "teacher_student",
+    "name" : "ENTNet_Hard_Pseudo",
+    "teacher_name" : "ENTNet_Labeled",
+    "teacher_ckpt" : "/workspace/kanggilpark/ENT_Recognition/TM_Surgical_Phase_Recognition/feature_extractor/experiments/ent_6class_labeled/weight/model_epoch8.pth",
+
+    "data" : "/workspace/kanggilpark/ENT_Recognition/TM_Surgical_Phase_Recognition/feature_extractor/data/ent_6phase_no_drill_add_back.hdf5",
+    "batch_size" : 500,
+    "num_workers" : 8,
+    "num_class" : 6, 
+    "gpu_mode" : "DataParallel",
+
+    "epochs" : 500,
+    "lr" : 1e-6,
+    "lr_scheduler" : "cosine_annealing_warm_restart",
+    "print_freq" : 1,
+    "save_path" : "experiments/ent_6class_hard_pseudo/",
+    "resume" : "off",
+    "cuda_visible_devices" : "0,1,2,3"
+}
