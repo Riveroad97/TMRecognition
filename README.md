@@ -22,7 +22,7 @@ python feature_extraction.py -c configs/test/ent_6class_soft_pseudo_train.json
 
 ## Surgical Phase Recognition Training & Prediction
 
-For surgical phase recognition Network
+For surgical phase recognition network
 ```python
 python main.py --action=hierarch_train --model=Hierarch_CausalTCN --name=soft_pseudo --cuda_visible_devices=0
 ```
