@@ -2,3 +2,5 @@
 TMRecognition is a model for Tympanomastoidectomy Surgical Phase Recognition using deep learning.
 
 ## Overview
+
+<img src="images/recognition_overview.png" alt="TMRecognition" width="80%" height="80%"/>
