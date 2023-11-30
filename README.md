@@ -1,1 +1,1 @@
-# TMSurgicalPhaseRecognition
+# TMRecognition
